@@ -5,42 +5,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Influencer Gear</title>
+    <title>Influencer's Gear</title>
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/e46f87fa2e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- header menu start -->
+    <!-- header menu start-->
     <header>
         <nav class="container">
-            <p class="site__name">Influencer Products</p>
-            <ul class="nav__list">
-                <li class="list__item"><a href="#" class="item__link">Home</a></li>
-                <li class="list__item"><a href="#" class="item__link">Products</a></li>
-                <li class="list__item"><a href="#" class="item__link">Sign up</a></li>
-                <li class="list__item"><a href="#" class="item__link">Log in</a></li>
-                <li class="list__item"><a href="#" class="item__link"><i class="fas fa-search"></i></a></li>
-                <li class="list__item"><a href="#" class="item__link"><i class="fas fa-shopping-cart"></i></a></li>
-            </ul>
+            <div class="flex-nav">
+                <h1 class="site-name"><a href="#" class="item__link">Influencer Products</a></h1>
+                <ul class="nav__list">
+                    <li class="list__item">
+                        <a href="#" class="item__link">Home</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#" class="item__link">Products</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#" class="item__link">Sign up</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#" class="item__link">Log in</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#" class="item__link"><i class="fas fa-search"></i></a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#" class="item__link"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <!-- header menu end -->
-    <!-- main content start -->
+    <!-- main content start-->
     <main>
         <div class="container">
+            <div class="camera-imagediv">
+                <img src="./images/main-camera.png" alt="" class="dslr">
+            </div>
             <div class="text-description">
                 <h1 class="starting-head">Start your Journey as Influencer</h1>
                 <p class="description-para">Enjoy your journey as an influencer and get all the necessary gadgets in
-                    one place</p>
-                <button type="submit" class="btn round-edge">Book now <i class="fas fa-arrow-right"></i></button>
-            </div>
-            <div class="camera-image">
-                <img src="./images/main-camera.png" alt="">
+                    our website</p>
+                <button type="submit" class="btn round-edge">Book now &nbsp;&nbsp;&nbsp;<i
+                        class="fas fa-arrow-right"></i></button>
             </div>
         </div>
         <!-- logo section start  -->
-        <div class="mini__container">
+        <div class="mini-container logo-container">
             <span class="logo"><img src="./logos/Alibaba.svg" alt=""></span>
             <span class="logo"><img src="./logos/Amazon.svg" alt=""></span>
             <span class="logo"><img src="./logos/Daraz.pk Logo.svg" alt=""></span>
@@ -49,14 +63,13 @@
             <span class="logo"><img src="./logos/Walmart.svg" alt=""></span>
             <span class="logo"><img src="./logos/Target.svg" alt=""></span>
         </div>
-        <!-- logo section end -->
         <!-- product start -->
-        <section class="mini__container">
-            <h3 class="pro-collection">Popular Collection</h3>
+        <section class="mini-container">
+            <h2 class="pro-collection">Popular Collection</h2>
             <div class="products">
                 <div class="product">
                     <img src="./images/tripod.png" alt="" class="product-demo">
-                    <p class="product-name">Flex Tripod</p>
+                    <h3 class="product-name"><a href="#">Flex Tripod</a></h3>
                     <p class="price">$50.48</p>
                     <div class="rating">
                         <i class="fas fa-star filled"></i>
@@ -64,14 +77,16 @@
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star empty"></i>
-                        <span>4.9</span>
+                        <span class="num-rate">4.9</span>
                     </div>
-                    <p>Worldwide shifting available</p>
-                    <p>Buyers protection possible!</p>
+                    <div class="facility">
+                        <p>Worldwide shifting available</p>
+                        <p>Buyers protection possible!</p>
+                    </div>
                 </div>
                 <div class="product">
                     <img src="./images/mic.png" alt="" class="product-demo">
-                    <p class="product-name">Microphone</p>
+                    <h3 class="product-name"><a href="#">Microphone</a></h3>
                     <p class="price">$120.25</p>
                     <div class="rating">
                         <i class="fas fa-star filled"></i>
@@ -79,14 +94,16 @@
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star empty"></i>
-                        <span>4.9</span>
+                        <span class="num-rate">4.9</span>
                     </div>
-                    <p>Worldwide shifting available</p>
-                    <p>Buyers protection possible!</p>
+                    <div class="facility">
+                        <p>Worldwide shifting available</p>
+                        <p>Buyers protection possible!</p>
+                    </div>
                 </div>
                 <div class="product">
                     <img src="./images/airpod.png" alt="" class="product-demo">
-                    <p class="product-name">Airbuds</p>
+                    <h3 class="product-name"><a href="#">Airbuds</a></h3>
                     <p class="price">$100.00</p>
                     <div class="rating">
                         <i class="fas fa-star filled"></i>
@@ -94,14 +111,17 @@
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star empty"></i>
-                        <span>4.9</span>
+                        <span class="num-rate">4.9</span>
                     </div>
-                    <p>Worldwide shifting available</p>
-                    <p>Buyers protection possible!</p>
+                    <div class="facility">
+                        <p>Worldwide shifting available</p>
+                        <p>Buyers protection possible!</p>
+                    </div>
+
                 </div>
                 <div class="product">
                     <img src="./images/drone.png" alt="" class="product-demo">
-                    <p class="product-name">Drone</p>
+                    <h3 class="product-name"><a href="#">Drone</a></h3>
                     <p class="price">$980.25</p>
                     <div class="rating">
                         <i class="fas fa-star filled"></i>
@@ -109,14 +129,16 @@
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star empty"></i>
-                        <span>4.9</span>
+                        <span class="num-rate">4.9</span>
                     </div>
-                    <p>Worldwide shifting available</p>
-                    <p>Buyers protection possible!</p>
+                    <div class="facility">
+                        <p>Worldwide shifting available</p>
+                        <p>Buyers protection possible!</p>
+                    </div>
                 </div>
                 <div class="product">
                     <img src="./images/lights.png" alt="" class="product-demo">
-                    <p class="product-name">Light Setup</p>
+                    <h3 class="product-name"><a href="#">Light Setup</a></h3>
                     <p class="price">$1200.00</p>
                     <div class="rating">
                         <i class="fas fa-star filled"></i>
@@ -124,14 +146,16 @@
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star empty"></i>
-                        <span>4.9</span>
+                        <span class="num-rate">4.9</span>
                     </div>
-                    <p>Worldwide shifting available</p>
-                    <p>Buyers protection possible!</p>
+                    <div class="facility">
+                        <p>Worldwide shifting available</p>
+                        <p>Buyers protection possible!</p>
+                    </div>
                 </div>
                 <div class="product">
                     <img src="./images/setup.png" alt="" class="product-demo">
-                    <p class="product-name">Photoshoot set</p>
+                    <h3 class="product-name"><a href="#">Photoshoot set</a></h3>
                     <p class="price">$820.40</p>
                     <div class="rating">
                         <i class="fas fa-star filled"></i>
@@ -139,14 +163,16 @@
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star empty"></i>
-                        <span>4.9</span>
+                        <span class="num-rate">4.9</span>
                     </div>
-                    <p>Worldwide shifting available</p>
-                    <p>Buyers protection possible!</p>
+                    <div class="facility">
+                        <p>Worldwide shifting available</p>
+                        <p>Buyers protection possible!</p>
+                    </div>
                 </div>
                 <div class="product">
                     <img src="./images/camera.png" alt="" class="product-demo">
-                    <p class="product-name">Vlogging Camera</p>
+                    <h3 class="product-name"><a href="#">Vlogging Camera</a></h3>
                     <p class="price">$1800.80</p>
                     <div class="rating">
                         <i class="fas fa-star filled"></i>
@@ -154,14 +180,16 @@
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star empty"></i>
-                        <span>4.9</span>
+                        <span class="num-rate">4.9</span>
                     </div>
-                    <p>Worldwide shifting available</p>
-                    <p>Buyers protection possible!</p>
+                    <div class="facility">
+                        <p>Worldwide shifting available</p>
+                        <p>Buyers protection possible!</p>
+                    </div>
                 </div>
                 <div class="product">
                     <img src="./images/single-light.png" alt="" class="product-demo">
-                    <p class="product-name">Green Screen</p>
+                    <h3 class="product-name"><a href="#">Green Screen</a></h3>
                     <p class="price">$25.48</p>
                     <div class="rating">
                         <i class="fas fa-star filled"></i>
@@ -169,14 +197,16 @@
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star empty"></i>
-                        <span>4.9</span>
+                        <span class="num-rate">4.9</span>
                     </div>
-                    <p>Worldwide shifting available</p>
-                    <p>Buyers protection possible!</p>
+                    <div class="facility">
+                        <p>Worldwide shifting available</p>
+                        <p>Buyers protection possible!</p>
+                    </div>
                 </div>
                 <div class="product">
                     <img src="./images/action.png" alt="" class="product-demo">
-                    <p class="product-name">Action Camera</p>
+                    <h3 class="product-name"><a href="#">Action Camera</a></h3>
                     <p class="price">$380.00</p>
                     <div class="rating">
                         <i class="fas fa-star filled"></i>
@@ -184,39 +214,42 @@
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star filled"></i>
                         <i class="fas fa-star empty"></i>
-                        <span>4.9</span>
+                        <span class="num-rate">4.9</span>
                     </div>
-                    <p>Worldwide shifting available</p>
-                    <p>Buyers protection possible!</p>
+                    <div class="facility">
+                        <p>Worldwide shifting available</p>
+                        <p>Buyers protection possible!</p>
+                    </div>
                 </div>
             </div>
+            <p class="bgnull-btn"><a href="#">See more <i class="fas fa-arrow-right"></i></a></p>
         </section>
-        <!-- product end -->
-        <p class="bgnull-btn">See more <i class="fas fa-arrow-right"></i></p>
         <!-- featured section start -->
-        <section class="featured">
-            <div class="img-div">
-                <img src="./images/gear.png" alt="" class="featured-img">
-            </div>
+        <section class="featured container">
             <div class="featured-txt">
                 <h3 class="featured-head">All in one place!</h3>
                 <p class="featured-para">To make your journey butter smooth join our community and get useful tips. You
                     can find bunch of products at one place to start from scratch.</p>
-                <button type="submit" class="btn solid-edge">Join Now <i class="fas fa-arrow-right"></i></button>
+                <button type="submit" class="btn s-edge">Join Now &nbsp;&nbsp;&nbsp;<i
+                        class="fas fa-arrow-right"></i></button>
+            </div>
+            <div class="featured-img">
+                <img src="./images/gear.png" alt="">
             </div>
         </section>
-        <!-- featured section end -->
     </main>
     <!-- footer start  -->
     <footer>
-        <h3 class="footer-head">Influencer products</h3>
-        <p class="foot-txt">Copyright &copy; 2020 influencer products</p>
-        <p class="foot-txt">All right reserved</p>
-        <div class="social-icon">
-            <a href="" class="social-link"><i class="s-icon fab fa-facebook-f"></i></a>
-            <a href="" class="social-link"><i class="s-icon fab fa-instagram"></i></a>
-            <a href="" class="social-link"><i class="s-icon fab fa-twitter"></i></a>
-            <a href="" class="social-link"><i class="s-icon fab fa-youtube-square"></i></a>
+        <div class="mini-container foot">
+            <h3 class="footer-head">Influencer products</h3>
+            <p class="foot-txt">Copyright &copy; 2022 influencer products</p>
+            <p class="foot-txt">All right reserved</p>
+            <div class="social-icon">
+                <a href="#" class="social-link"><i class="s-icon fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="s-icon fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="s-icon fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="s-icon fab fa-youtube"></i></a>
+            </div>
         </div>
     </footer>
 </body>

@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+/* universal style */
+:root {
+  --common-margin: 1rem 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* common style */
+
+.container,
+.mini-container {
+  margin: 0 auto;
+  width: 90%;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  margin: 2rem 0;
+  padding: 0.8rem 2rem;
+  background-color: #e02c6d;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: transparent;
+  transition: transform 0.5s;
+}
+.btn:hover {
+  box-shadow: 2px 2px 10px #e02c6d;
+  transform: translateY(-5px);
+  color: white;
+}
+.round-edge {
+  border-radius: 2rem;
+}
+.s-edge {
+  border-radius: 0.3rem;
+}
+/* navigation menu  */
+
+.flex-nav,
+.nav__list {
+  display: flex;
+}
+.flex-nav {
+  margin: 2rem 0 0 0;
+  justify-content: center;
+  color: #3a3a3a;
+}
+.site-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav__list {
+  display: none;
+}
+.list__item {
+  list-style-type: none;
+}
+.item__link {
+  color: #3a3a3a;
+}
+
+/* main content */
+
+.camera-imagediv {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+}
+.camera-imagediv img {
+  background: url(./images/Circledesign.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 100%;
+}
+.text-description {
+  text-align: center;
+  color: #3a3a3a;
+}
+.starting-head {
+  margin-bottom: 1rem;
+  font-size: 3.25rem;
+  font-weight: bold;
+}
+.description-para {
+  font-weight: 600;
+}
+
+/* logo section style */
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-top: 2px solid rgba(128, 128, 128, 0.5);
+  border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+}
+.logo img {
+  margin: var(--common-margin);
+  width: 130px;
+}
+
+/* products style */
+
+.pro-collection {
+  margin: 4rem 0 3rem 0;
+  text-align: center;
+  color: #3a3a3a;
+  font-weight: 700;
+}
+.product {
+  margin: 1.5rem auto;
+  padding: 1rem;
+  width: 90%;
+  border-radius: 0.5rem;
+  box-shadow: 2px 3px 50px grey;
+  transition: transform 0.5s;
+  font-family: 'Inter', sans-serif;
+}
+.product:hover {
+  transform: translateY(-5px);
+}
+.product-demo {
+  width: 100%;
+}
+.product-name {
+  margin: var(--common-margin);
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.product-name a {
+  color: #000;
+}
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+.rating {
+  margin: var(--common-margin);
+}
+.filled,
+.empty {
+  font-size: 0.7rem;
+}
+.filled {
+  color: orange;
+}
+.empty {
+  color: #3a3a3a7e;
+}
+.num-rate {
+  color: #3a3a3a;
+  font-weight: 600;
+}
+.facility {
+  margin: var(--common-margin);
+  color: #787885;
+}
+.bgnull-btn {
+  margin: var(--common-margin);
+  text-align: right;
+  font-weight: bold;
+}
+.bgnull-btn a {
+  color: #e02c6d;
+}
+
+/* featured section */
+
+.featured {
+  text-align: center;
+  font-weight: bold;
+}
+.featured-head {
+  font-size: 2rem;
+  color: #0a0826;
+}
+.featured-para {
+  color: #6c6c6c;
+}
+.featured-head,
+.featured-para,
+.featured-img {
+  margin: var(--common-margin);
+}
+
+/* footer style */
+
+footer,
+footer a {
+  background-color: #0a0826;
+  font-weight: 700;
+  color: white;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+.foot {
+  padding: 2rem 0;
+  text-align: center;
+}
+.footer-head {
+  margin: var(--common-margin);
+}
+.foot-txt {
+  font-size: 0.75rem;
+  margin: var(--common-margin);
+  color: #d9dbe1;
+}
+.social-icon {
+  display: flex;
+  justify-content: center;
+}
+.social-link {
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #22213c;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.s-icon {
+  align-self: center;
+}
+.social-link:hover {
+  font-size: 1.3rem;
+  transform: scale(1.2);
+  color: rgb(100, 83, 211);
+  background-color: white;
+}
