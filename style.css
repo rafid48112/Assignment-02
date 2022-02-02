@@ -138,7 +138,7 @@ button:hover {
   margin: 1.5rem auto;
   width: 90%;
   border-radius: 0.5rem;
-  box-shadow: 2px 2px 30px grey;
+  box-shadow: 0px 0px 40px rgb(0 0 0 / 20%);
   transition: transform 0.6s;
   font-family: 'Inter', sans-serif;
 }
