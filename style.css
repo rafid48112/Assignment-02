@@ -35,6 +35,7 @@ button:hover {
   display: inline-block;
   margin: 2rem 0;
   padding: 0.8rem 2rem;
+  width: 250px;
   background-color: #e02c6d;
   color: rgba(255, 255, 255, 0.9);
   font-size: 1.1rem;
@@ -316,9 +317,6 @@ footer a {
     flex-direction: column;
     justify-content: center;
   }
-  .btn {
-    width: inherit;
-  }
 }
 @media screen and (min-width: 1170px) {
   .container {
@@ -326,5 +324,11 @@ footer a {
   }
   .mini-container {
     max-width: 1150px;
+  }
+  .flex-txt {
+    width: 60%;
+  }
+  .flex-img {
+    width: 35%;
   }
 }
